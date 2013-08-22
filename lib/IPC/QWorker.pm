@@ -1,11 +1,12 @@
 package IPC::QWorker;
+# ABSTRACT: processing a queue in parallel
 
 use 5.000;
 use strict;
 use warnings;
 use utf8;
 
-our $VERSION = '0.06';
+# VERSION
 our $DEBUG   = 0;
 
 use IO::Select;

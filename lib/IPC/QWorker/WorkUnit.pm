@@ -4,6 +4,8 @@ use strict;
 use warnings;
 use utf8;
 
+# VERSION
+
 sub new($ @) {
     my $this = shift;
     my $class = ref($this) || $this;

@@ -4,6 +4,8 @@ use strict;
 use warnings;
 use utf8;
 
+# VERSION
+
 use Carp;
 use IO::Socket;
 use Storable qw(fd_retrieve store_fd);
