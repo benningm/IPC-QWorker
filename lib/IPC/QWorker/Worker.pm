@@ -11,7 +11,7 @@ use IO::Socket;
 use Storable qw(fd_retrieve store_fd);
 use Data::Dumper;
 
-sub new($ $) {
+sub new {
     my $this  = shift;
     my $class = ref($this) || $this;
     my $self  = {
@@ -26,7 +26,7 @@ sub new($ $) {
     return ($self);
 }
 
-sub _fork_worker() {
+sub _fork_worker {
     my $self = shift;
     my $pid;
     my $parent_pipe;
@@ -59,7 +59,7 @@ sub _fork_worker() {
     }
 }
 
-sub _child_loop($) {
+sub _child_loop {
     my $self = shift;
     my $qentry;
 

@@ -29,7 +29,7 @@ sub new {
     return ($self);
 }
 
-sub create_workers($ $ @) {
+sub create_workers {
     my $self        = shift();
     my $num_workers = shift();
 		my $worker;
@@ -46,7 +46,7 @@ sub create_workers($ $ @) {
     }
 }
 
-sub push_queue($ @) {
+sub push_queue {
     my $self = shift;
 
     push( @{ $self->{'_queue'} }, @_ );
@@ -72,7 +72,7 @@ sub _get_ready_workers {
 		}
 }
 
-sub process_queue($) {
+sub process_queue {
     my $self = shift;
 		my $timeout = shift;
     my $qentry;
@@ -129,7 +129,7 @@ sub flush_queue {
 		}
 }
 
-sub stop_workers($) {
+sub stop_workers {
     my $self = shift;
     my $worker;
 
