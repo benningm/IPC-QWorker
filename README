@@ -1,0 +1,29 @@
+IPC/QWorker version 0.06
+===============================
+
+This is the IPC::QWorker Module.
+A perl module to process a queue in parallel by distributing work across
+child processes.
+
+INSTALLATION
+
+To install this module type the following:
+
+   perl Makefile.PL
+   make
+   make test
+   make install
+
+DEPENDENCIES
+
+  IO::Select, Storable
+
+COPYRIGHT AND LICENCE
+
+Put the correct copyright and licence information here.
+
+Copyright (C) 2013 Markus Benning <me@w3r3wolf.de>
+
+This library is free software; you can redistribute it and/or modify
+it under the same terms as Perl itself. 
+

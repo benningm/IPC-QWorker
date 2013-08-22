@@ -1,0 +1,39 @@
+{
+   "abstract" : "Perl extension for processing a queue in parallel",
+   "author" : [
+      "Markus Benning <me@w3r3wolf.de>"
+   ],
+   "dynamic_config" : 1,
+   "generated_by" : "Module::Build version 0.38, CPAN::Meta::Converter version 2.110440",
+   "license" : [
+      "restricted"
+   ],
+   "meta-spec" : {
+      "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
+      "version" : "2"
+   },
+   "name" : "IPC-QWorker",
+   "prereqs" : {
+      "configure" : {
+         "requires" : {
+            "Module::Build" : "0.38"
+         }
+      }
+   },
+   "provides" : {
+      "IPC::QWorker" : {
+         "file" : "lib/IPC/QWorker.pm",
+         "version" : "0.06"
+      },
+      "IPC::QWorker::WorkUnit" : {
+         "file" : "lib/IPC/QWorker/WorkUnit.pm",
+         "version" : 0
+      },
+      "IPC::QWorker::Worker" : {
+         "file" : "lib/IPC/QWorker/Worker.pm",
+         "version" : 0
+      }
+   },
+   "release_status" : "stable",
+   "version" : "0.06"
+}

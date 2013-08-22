@@ -1,0 +1,11 @@
+Changes
+Build.PL
+MANIFEST
+README
+t/1.t
+t/simple.t
+lib/IPC/QWorker.pm
+lib/IPC/QWorker/Worker.pm
+lib/IPC/QWorker/WorkUnit.pm
+META.yml
+META.json
