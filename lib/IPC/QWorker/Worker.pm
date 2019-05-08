@@ -4,6 +4,7 @@ use strict;
 use warnings;
 use utf8;
 
+# ABSTRACT: worker process for IPC::QWorker
 # VERSION
 
 use Carp;
@@ -121,5 +122,4 @@ sub _shutdown {
 
 1;
 
-# vim:ts=2:syntax=perl:
-# vim600:foldmethod=marker:
+# vim:ts=2:expandtab:syntax=perl:

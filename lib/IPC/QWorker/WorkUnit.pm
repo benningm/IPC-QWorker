@@ -4,6 +4,7 @@ use strict;
 use warnings;
 use utf8;
 
+# ABSTRACT: work unit to process by IPC::QWorker
 # VERSION
 
 sub new {
@@ -20,5 +21,4 @@ sub new {
 
 1;
 
-# vim:ts=2:syntax=perl:
-# vim600:foldmethod=marker:
+# vim:ts=2:expandtab:syntax=perl:
